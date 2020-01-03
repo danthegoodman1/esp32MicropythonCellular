@@ -46,8 +46,9 @@ def runit():
 
     print("Making get request...")
     response = urequests.get("https://bot.whatismyipaddress.com")
-    print(response)
-    response.close()
+    print(response.text)
+    gsm.disconnect()
+    gsm.sendSMS("+13025636012", "My public ip is: {}".format(response.text))
 
     # print("Disconnecting GSM")
     # gsm.disconnect()
