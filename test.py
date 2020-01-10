@@ -48,15 +48,15 @@ def runit():
     response = urequests.get("https://bot.whatismyipaddress.com")
     print(response.text)
     gsm.disconnect()
-    gsm.sendSMS("+13025636012", "My public ip is: {}".format(response.text))
+    gsm.sendSMS("+1xxxx", "My public ip is: {}".format(response.text))
 
     # print("Disconnecting GSM")
     # gsm.disconnect()
 
     # Texting
     # Send Text
-    # gsm.sendSMS("+13025636012", "Hello from ESP32!")
-    # gsm.sendSMS("3025636012", "Hello from ESP32!")
+    # gsm.sendSMS("+1xxxx", "Hello from ESP32!")
+    # gsm.sendSMS("xxxx", "Hello from ESP32!")
     # print("Sent text!")
 
     # Received Text
