@@ -12,7 +12,7 @@
 - [Internet](#internet)
 - [Texting (send and receive)](#texting-send-and-receive)
 - [Running files](#running-files)
-- [More:](#more)
+- [Documentation and Links](#documentation-and-links)
 
 ## Installing MicroPython (LoBo) on ESP32
 
@@ -240,7 +240,7 @@ import test
 test.main()
 ```
 
-## More:
+## Documentation and Links
 
 ampy: https://github.com/scientifichackers/ampy
 
