@@ -30,7 +30,7 @@ In order to install, we have to download and build the software ourselves, then 
 
 #### Build the firmware
 
-`cd` into the folder, then `MicroPython_BUILD`, and find the `BUILD.sh` file. Then run `./Build.sh menuconfig`
+`cd` into the folder, then `MicroPython_BUILD`. Then run `./Build.sh menuconfig`
 
 #### Configure GSM
 
